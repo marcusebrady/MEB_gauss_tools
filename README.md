@@ -1,7 +1,7 @@
 # Collection of My Tools
 
-## Command-Line Arguments
-# Positional Argument
+### Command-Line Arguments
+#### Positional Argument
 
 `log_file`: Path to the Gaussian log file.
 Mutually Exclusive Group
@@ -25,6 +25,8 @@ Extracts excitation energies and appends them to an existing JSON file.
 Excitation with Optimization Mode (`-excopt`)
 
 Extracts both excitation energies and SCF energy for a specified state, appending them to an existing JSON file.
+
+#### Examples
 
 ```bash
 python parse_gaussian.py molecule.log -opt -o optimized_molecule.json
